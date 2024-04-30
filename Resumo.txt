@@ -1,0 +1,5 @@
+Toda variavel e um objeto no python.
+
+print('Ola, mundo!') --> vai escrever exatamente o texto que eu escrevi
+print(7 + 4) --> vai somar os numeros
+print('7' + '4') --> vai escrever '74'
