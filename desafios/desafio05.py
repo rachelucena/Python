@@ -1,4 +1,5 @@
 n = input('Digite algo: ')
+print('O tipo primitivo desse valor e: ', type(n))
 print(n.isnumeric())
 print(n.isprintable())
 print(n.istitle())
