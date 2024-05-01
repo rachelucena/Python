@@ -3,3 +3,11 @@ Toda variavel e um objeto no python.
 print('Ola, mundo!') --> vai escrever exatamente o texto que eu escrevi
 print(7 + 4) --> vai somar os numeros
 print('7' + '4') --> vai escrever '74'
+
+E preciso colocar o tipo primitivo (inteiro, float, bool, str) da variavel, depois do =. Ai a variavel e lida pelo tipo dela.
+Ex: int = 7, -4, 0
+    float = 4.5, 0.076, -15.223, 7.0
+    bool = True or False
+    str = 'Ola', '7.0' (precisa estar entre aspas)
+
+n1 = int(input('Digite um numero'))
