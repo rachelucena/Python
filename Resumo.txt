@@ -31,3 +31,5 @@ e = n1 ** n2
 print('A soma e '.format(n1+n2))
 
 , end = ' ' nao quebrar a linha depois do format
+
+Quebra de linha: \n
