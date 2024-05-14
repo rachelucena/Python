@@ -33,3 +33,6 @@ print('A soma e '.format(n1+n2))
 , end = ' ' nao quebrar a linha depois do format
 
 Quebra de linha: \n
+
+import + bibliotecas (importar modulos)
+from biblioteca import = importa um item especifico, nao a biblioeca inteira
