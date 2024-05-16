@@ -36,3 +36,28 @@ Quebra de linha: \n
 
 import + bibliotecas (importar modulos)
 from biblioteca import = importa um item especifico, nao a biblioeca inteira
+
+Fatiamento de string
+O PYTHON CONTA ATE UM NUMERO ANTES DO NUMERO FINAL
+frase[9] (vai ver onde esta o caracter 9)
+frase[9:21] (vai ver os caracteres entre 9 e 21)
+frase[9:21:2] (vai ver os caracteres entre 9 e 21, pulando de 2 em 2)
+frase[:5] (vai do inicio ate o caracter 4)
+frase[5:] (vai do caracter 5 ate o final)
+frase[9::3] (vai do 9 ate o final, pulando de 3 em 30
+len(frase) (vai dizer a quantidade de caracteres de uma frase)
+frase.count('o') (conta quantas vezes o o minusculo aparece na frase)
+frase.count('o', 0, 13) (faz a contagem com o fatiamento)
+frase.find('deo') (vai mostrar a posicao onde comeca as letras)
+Se colocar uma string que nao existe, vai retonar um valor -1
+'Curso' in frase (ele vai escrever true ou false)
+frase.replace('Python', 'Android') (vai substituir a primeira string pela segunda)
+frase.upper() (ele vai colocar o que esta em minuscula, em maiuscula)
+frase.lower() (substitui as maisculas para minusculas)
+frase.capitalize() (so o primeiro caracter fica em maisculo)
+frase.title() (analisa quantas palavras tem na string (conta os espacos), colocando todas as palavras com a primeira letra em maiuscula)
+frase.strip() (remove excesso de espacos, no inicio e final de estrings, mantendo os do meio)
+frase.rstrip() (remove os ultimos espacos, os da direita)
+frase.lstrip (remove os espacos da esquerda, os primeiros espacos)
+frase.split() (divisao da string, considerando os espacos, gera uma lista com as palavras de cadeia de caracter)
+'-'.join(frase) (coloca tracinhos nos espacos entre strings)
