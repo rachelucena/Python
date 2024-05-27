@@ -61,3 +61,11 @@ frase.rstrip() (remove os ultimos espacos, os da direita)
 frase.lstrip (remove os espacos da esquerda, os primeiros espacos)
 frase.split() (divisao da string, considerando os espacos, gera uma lista com as palavras de cadeia de caracter)
 '-'.join(frase) (coloca tracinhos nos espacos entre strings)
+
+Colocar cor no python
+\033[m => entre o colchete e o m vc coloca 0, 1, 2, 3 codigos - estilo, texto e fundo
+Ex: \033[0;33;44m
+
+Codigos para estilo: 0(nada), 1(negrito), 4(sublinhado), 7(inverter as configuracoes)
+Codigos para texto: 30(brando), 31(vermelho), 32(verde), 33(amarelo), 34(azul), 35(roxo), 36(ciano), 37(cinza)
+Codigos para fundo: 40 a 47 (mesma ordem das cores para texto)
