@@ -30,9 +30,13 @@ di = n1 // n2
 e = n1 ** n2
 print('A soma e '.format(n1+n2))
 
+Usar o .format:
+print('A soma entre {} e {} eh {}'.format(nome das variaveis separados or virgula))
+{:.3f} (o float vai aparecer com 3 casas flutuantes)
 , end = ' ' nao quebrar a linha depois do format
 
 Quebra de linha: \n
+Fazer comentario: #
 
 import + bibliotecas (importar modulos)
 from biblioteca import = importa um item especifico, nao a biblioeca inteira
@@ -69,3 +73,5 @@ Ex: \033[0;33;44m
 Codigos para estilo: 0(nada), 1(negrito), 4(sublinhado), 7(inverter as configuracoes)
 Codigos para texto: 30(brando), 31(vermelho), 32(verde), 33(amarelo), 34(azul), 35(roxo), 36(ciano), 37(cinza)
 Codigos para fundo: 40 a 47 (mesma ordem das cores para texto)
+
+elif = else if
