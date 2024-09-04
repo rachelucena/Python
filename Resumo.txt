@@ -75,3 +75,5 @@ Codigos para texto: 30(brando), 31(vermelho), 32(verde), 33(amarelo), 34(azul), 
 Codigos para fundo: 40 a 47 (mesma ordem das cores para texto)
 
 elif = else if
+
+laco de repeticao == iteracao
