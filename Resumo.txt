@@ -77,3 +77,6 @@ Codigos para fundo: 40 a 47 (mesma ordem das cores para texto)
 elif = else if
 
 laco de repeticao == iteracao
+
+while = usado para estrutura sem limite de repeticao
+for = usado para estrutura com limite de repeticao
