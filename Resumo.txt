@@ -80,3 +80,6 @@ laco de repeticao == iteracao
 
 while = usado para estrutura sem limite de repeticao
 for = usado para estrutura com limite de repeticao
+
+Comando break = interrompe o looping infinito
+Para fazer um looping infinito = while True
