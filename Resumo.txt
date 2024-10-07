@@ -83,3 +83,21 @@ for = usado para estrutura com limite de repeticao
 
 Comando break = interrompe o looping infinito
 Para fazer um looping infinito = while True
+
+O python tem 3 tipos de variaveis compostas:
+Tuplas
+Listas
+dicionarios
+
+Exemplos de fatiamento:
+variavel[2]: mostrar a variavel que ocupa a posicao 2
+variavel[0:2]: mostra ate a posicao 2 (exluindo o 2)
+variavel[1:]: comeca no 1 ate o final
+variavel[-1]: e o final da variavel composta que vai de 0 a 4
+len(variavel): vai dizer qts variaveis tem
+
+As tuplas sao imutaveis
+
+Pode haver dados de tipos diferentes nas tuplas.
+
+Para deletar: del(tupla) mas apaga ela toda
