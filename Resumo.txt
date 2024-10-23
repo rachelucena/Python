@@ -85,8 +85,8 @@ Comando break = interrompe o looping infinito
 Para fazer um looping infinito = while True
 
 O python tem 3 tipos de variaveis compostas:
-Tuplas
-Listas
+Tuplas ()
+Listas []
 dicionarios
 
 Exemplos de fatiamento:
@@ -101,3 +101,37 @@ As tuplas sao imutaveis
 Pode haver dados de tipos diferentes nas tuplas.
 
 Para deletar: del(tupla) mas apaga ela toda
+
+Listas sao usadas para guardar mais de uma variavel (variaveis compostas), mas sao mutaveis.
+Para adicionar um novo elemento .append
+Para adicionar un novo elemento em determinada posicao .insert(0, 'nome da variavel') - vai ser inserido na posicao 0
+Para apagar elemento del nomedalista[posicao] ou nome dalista.pop(posicao) - se nao colocar a posicao, vai remover o ultimo elemento, nomeda lista.remove(valor)
+nomedalista.sort() = coloca os elementos em ordem crescente
+nomedalista.sort(reverse=True) = coloca os elementos em ordem decrescente
+len(variavel): vai dizer qts variaveis tem
+
+O python faz uma ligacao entre as listas, entao mexer em uma, mexe na outra. Pra mudar uma e nao mudar outra, tem que criar uma copia. nomeda lista[:]
+
+Lista dentro de lista:
+Ex: pessoas = list()
+    pessoas.append(dados[:])
+Como declarar:
+pessoas = [['Pedro', 25], ['Maria', 19], ['Joao', 32]]
+print(pessoas[0][0]) = Vai printar Pedro
+print(pessoas[1][1]) = Vai printar 19
+print(pessoas[1]) = Vai printar ['Maria', 19]
+
+Dicionarios: estruturalmente semelhante a tuplas e listas, mas os indices podem ser literais, ou seja, e possivel, personalizar os indices.
+Exemplo:
+dados = dict()
+dados = {'nome': 'Pedro', 'idade': 25}
+O append nao funciona nos dicionarios
+Para adcionar:
+dados['sexo] = 'M'
+Para remover: deldados['Nome do indice']
+print(nomedicionario.values()) retorna tds os valores
+print(nomedicionario.keys()) retorna os indices
+print(nomedicionario.items()) retorna os valores e os indices
+
+def = definir funcoes
+Cria funcoes personalizadas e parametros
