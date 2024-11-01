@@ -135,3 +135,13 @@ print(nomedicionario.items()) retorna os valores e os indices
 
 def = definir funcoes
 Cria funcoes personalizadas e parametros
+
+Interactive help (ajuda interativa) = help()
+	Digitar help() no console do python ou colocar help(nome da funcao) no display
+
+Para fazer uma docstring tem que colocar o manual entre tres aspas duplas
+
+Parametros opcionais = utilizados para flexibilizar as funcoes
+
+escopo de variaveis: local onde a variavel vai ou nao vai mais existir
+
